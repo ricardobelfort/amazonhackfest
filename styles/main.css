@@ -7722,9 +7722,10 @@ ul {
 
 .section.-intro {
   min-height: 31.25rem;
-  padding: 10rem 0;
+  /* padding: 10rem 0; */
   overflow: hidden;
   margin-top: 70px;
+  height: 800px;
 }
 
 .section.-intro .container {
@@ -8293,7 +8294,7 @@ ul {
 }
 
 .bg-highlight {
-  background-image: url("../images/hackfest-room-2019.jpg");
+  background-image: url("../images/fundo.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
