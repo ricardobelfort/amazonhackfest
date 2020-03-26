@@ -7500,6 +7500,11 @@ ul {
     padding: 0.75rem 1.875rem;
     font-size: 0.8125rem;
   }
+
+  table, thead, tbody, th, td, tr {
+    display: block;
+    width: 100%;
+  }
 }
 
 .modal {
@@ -7888,6 +7893,35 @@ ul {
   -webkit-transform: scale(1.1);
 }
 
+.section.-trilhas {
+  padding: 5.625rem 0rem 5rem;
+  color: #0a29bb;
+  background-color: #fff;
+  text-align: center;
+}
+
+.section.-trilhas .s-heading {
+  margin: 2.5rem 0;
+}
+
+.section.-trilhas .s-heading .title {
+  margin-bottom: 0.3125rem;
+}
+
+.section.-trilhas .s-content .card.-gift .c-link {
+  display: none;
+}
+
+.section.-trilhas .s-content .card.-gift .list a span {
+  top: 50%;
+}
+
+.section.-trilhas .s-content .card.-gift .list a:before {
+  display: none;
+}
+
+
+
 .section.-previous-editions {
   padding: 5.625rem 0rem 5rem;
   color: #ffffff;
@@ -7923,8 +7957,8 @@ ul {
 
 .section.-programation {
   padding: 5.625rem 0rem 5rem;
-  color: #2f5bbe;
-  background-color: #fafbfe;
+  color: #fff;
+  background-color: #2f5bbe;
 }
 
 .section.-programation .info-event .date {
